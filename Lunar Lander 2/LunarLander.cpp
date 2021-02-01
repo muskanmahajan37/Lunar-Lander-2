@@ -35,7 +35,7 @@ LunarLander::LunarLander(vector<int> const& cfgData, Texture const& texture, Ter
 	m_isAlive = true ;
 	m_win = false ;
 
-	m_soundBuffer.loadFromFile("Ressources/burner.aif") ;
+	m_soundBuffer.loadFromFile("Ressources/burner.wav") ;
 	m_sound.setBuffer(m_soundBuffer) ;
 	m_sound.setLoop(true) ;
 	m_sound.play() ;
